@@ -13,11 +13,7 @@ defmodule Day1.Part2 do
     4. Recurse and sum that to the result.
   """
   def compute_item(item) do
-    result = item
-      |> Kernel./(3)
-      |> trunc
-      |> Kernel.-(2)
-
+    result = trunc(item / 3) - 2
     result + compute_item(result)
   end
 

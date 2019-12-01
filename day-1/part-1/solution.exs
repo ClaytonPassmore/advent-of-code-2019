@@ -5,10 +5,7 @@ defmodule Day1.Part1 do
     3. Subtract 2.
   """
   def compute_item(item) do
-    item
-    |> Kernel./(3)
-    |> trunc
-    |> Kernel.-(2)
+    trunc(item / 3) - 2
   end
 
   @doc """
