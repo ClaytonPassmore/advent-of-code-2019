@@ -1,4 +1,4 @@
-defmodule Day3.Part1 do
+defmodule Day3.Part2 do
   @doc """
     Take an instruction and turn it into a coordinate using the first element in the
     accumulator as a reference. Also store the step distance to the coordinate.
@@ -118,4 +118,4 @@ defmodule Day3.Part1 do
 end
 
 
-Day3.Part1.compute |> IO.inspect
+Day3.Part2.compute |> IO.inspect
